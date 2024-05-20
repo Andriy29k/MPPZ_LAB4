@@ -1,6 +1,12 @@
 
-package com.rshu.mppz;
+package com.rshu.mppz.order.controllers;
 
+import com.rshu.mppz.customer.data.CustomerRepository;
+import com.rshu.mppz.order.data.Order;
+import com.rshu.mppz.order.data.OrderRepository;
+import com.rshu.mppz.customer.data.Customer;
+import com.rshu.mppz.product.data.Product;
+import com.rshu.mppz.product.data.ProductRepository;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
